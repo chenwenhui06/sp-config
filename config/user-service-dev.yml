@@ -5,13 +5,6 @@ sp:
 spring:
   application:
     name: user-service
-  
-  # 添加rabbitmq连接信息 
-  rabbitmq:
-    host: 192.168.75.133
-    port: 5672
-    username: admin
-    password: admin
     
 server:
   port: 8101
